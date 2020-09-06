@@ -1,0 +1,985 @@
+{
+  "title": "test_01",
+  "description": "descript_01",
+  "created_date": 191231,
+  "version": 1_1,
+  "dialogs": [
+    {
+      "trigger": {
+        "type": "location",
+        "latitude": 50.1059992,
+        "longitude": 14.4312263,
+        "range": 4
+      },
+      "messages": [
+        {
+          "delay": 2000,
+          "content": {
+            "en": "Stop."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "It's my old flat."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "You can go inside. Common- Don't be too timid-"
+          }
+        },
+        {
+          "delay": 2000,
+          "media": {
+            "audio": "http:\/\/www.estrangerlab.com\/library\/b.resources\/knocking.mp3",
+            "autoplay": true
+          }
+        },
+        {
+          "delay": 7000,
+          "content": {
+            "en": "Did you hear that?"
+          }
+        },
+        {
+          "delay": 3500,
+          "content": {
+            "en": "Someone is knocking on a door."
+          }
+        },
+        {
+          "delay": 5500,
+          "content": {
+            "en": "The door that opens to... nowhere."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "who would that be?"
+          }
+        },
+        {
+          "delay": 3500,
+          "content": {
+            "en": "Who's looking for what?"
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Are you in my flat?"
+          }
+        },
+        {
+          "delay": 3000,
+          "media": {
+            "audio": "http:\/\/www.estrangerlab.com\/library\/b.resources\/roomf.mp3",
+            "autoplay": true
+          }
+        },
+        {
+          "delay": 7000,
+          "content": {
+            "en": "It was a temporary shelter.\n Youn know, a shelter for the rootless people."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "You know, poeple like us can sleep in anywhere if there is enough room to stretch their stout legs."
+          }
+        },
+        {
+          "delay": 7000,
+          "content": {
+            "en": "The shelter existed but invisible. \n In fact, it only exists in my memory now, you know. \n You can see it though. You can see it becase I'm sharing it with you."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "But we were happy at least. \n Grateful to live in a safe place \n Not to be afraid of being chased."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "At that time I appreciate free things we could get. Free meals, free rooms, free education and free move... "
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "And... one day,"
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "My mum left us. without any notice. \n It was like Puff, huff, whooshed into the air."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Sadly it's been a year since she's disapeared."
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "I'm still trying to understand why she had to leave us."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "But why?"
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "Homesick?"
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "Or she decided to find her missing brother by herself? "
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "She must be desperate what ever the reason was... "
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "But I also need her. I like to celebrate my 14th birtday with her seaweed soup!"
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "I saw her meeting some people secretely. \n I witnessed their shadows rolled in and out, \n poked my mum's back."
+          }
+        },
+        {
+          "delay": 8000,
+          "content": {
+            "en": "But I ignored the signals. Signals of the danger coming towards us."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Dad told me she would be ok. Would he know where she is? \n Do you think he might know what actually happend to her?."
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "I don't know what to do about it. I just patiently praying for her to come back home with uncle Jinsu."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "I promised myself that I will work hard. So she can be proud of me when she comes back."
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "location",
+        "latitude": 50.1059106,
+        "longitude": 14.4319025,
+        "range": 4.5
+      },
+      "messages": [
+        {
+          "delay": 2000,
+          "content": {
+            "en": "Do you see the poster?\n A man gone missing.\n my uncle, Jinsu"
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "Hey, you scan his face please with your camera and see what happens."
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "marker",
+        "marker": "poster_m.jpg",
+        "content": "http:\/\/www.estrangerlab.com\/library\/b.resources\/poster_m.mp4"
+      },
+      "messages": [
+        {
+          "delay": 3000,
+          "content": {
+            "en": "Uncle Jinsu. He's gone missing for a couple of years."
+          }
+        },
+        {
+          "delay": 4500,
+          "content": {
+            "en": "I haven't seen him since I was 12."
+          }
+        },
+        {
+          "delay": 4500,
+          "content": {
+            "en": "What happened to him?"
+          }
+        },
+        {
+          "delay": 4500,
+          "content": {
+            "en": "He must have been chased by..."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Do you see the other poster next to him? "
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "That's \n My mum."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "She went after him."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Please scan her face and see what happens."
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "marker",
+        "marker": "poster_f.jpg",
+        "content": "http:\/\/www.estrangerlab.com\/library\/b.resources\/poster_f.mp4"
+      },
+      "messages": [
+        {
+          "delay": 3000,
+          "content": {
+            "en": "Doesn't she look like she is saying she's ok..? \n Saying like she will come home soon"
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Don't worry...  my baby..."
+          }
+        },
+        {
+          "delay": 7000,
+          "content": {
+            "en": "My mum tried to have Jinsu stayed with us. Having a normal job and married to a fine lady."
+          }
+        },
+        {
+          "delay": 5500,
+          "content": {
+            "en": "He used to run a business in the North."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "He was a merchant in the communist country where... everything is owned by the state. \n Sounds odd, isn't it?"
+          }
+        },
+        {
+          "delay": 5500,
+          "content": {
+            "en": "But we are humans. We desire little bit more than what's given to us."
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "He sold DVDs in Jangmadang, the black market. Southerners TV dramas and films on those DVDs he sold."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "The market has been always there- always existed. \n The state, the suprem leader, local governors and polices- they all know about the markets."
+          }
+        },
+        {
+          "delay": 7000,
+          "content": {
+            "en": "Then it grew too big after the great draught that killed hundred thousands."
+          }
+        },
+        {
+          "delay": 7000,
+          "content": {
+            "en": "The food given from the state wasn't enough. We were hungry..."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "In the end, people couldn't survive without it."
+          }
+        },
+        {
+          "delay": 7000,
+          "content": {
+            "en": "But once every so often, they need a fall guy to show that everything is under their radar, to show their supreme power."
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "And one of the fall guys was... my uncle, Jinsu."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "That's how it began."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Uncle Jinsu."
+          }
+        },
+        {
+          "delay": 4500,
+          "content": {
+            "en": "He managed to escape from them, from the vicious punishment. \n Then he helped us, the family in danger too."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "If one goes, the rest has to follow. Otherwise, you cannot get out of the bottom of the class for generations."
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "You know, my family's too smart to do those bottom jobs.. those unescaperble harsh labour..."
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "Do you see the person handing out the flyer? Take it- with you. You'll need the flyer later."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Scan the flyer and see what happens."
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "marker",
+        "marker": "flyer.jpg",
+        "content": "http:\/\/www.estrangerlab.com\/library\/b.resources\/flyer.mp4"
+      }
+    },
+    {
+      "trigger": {
+        "type": "location",
+        "latitude": 50.1057603,
+        "longitude": 14.4322335,
+        "range": 4
+      },
+      "messages": [
+        {
+          "delay": 2000,
+          "content": {
+            "en": "I was lured into this way."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "The funfare is my favorite place!"
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Mum and dad promised to bring me here for my 13th birthday this year."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "I can't wait!! It's been sooooooo long to have a family outing."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "I'll take my puppy out too. She's unbelievably cute, you know."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Pong- I named her Pong. A lovely name, isn't it?"
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "She's my like my sister who alway welcome you home- always!\n I feel more settled down here with her."
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "location",
+        "latitude": 50.1052345,
+        "longitude": 14.4320269,
+        "range": 4
+      },
+      "messages": [
+        {
+          "delay": 2000,
+          "content": {
+            "en": "By the way.."
+          }
+        },
+        {
+          "delay": 3500,
+          "content": {
+            "en": "I have a feeling I've seen some grey shadows hovering outside our flat."
+          }
+        },
+        {
+          "delay": 4500,
+          "content": {
+            "en": "Uncle jinsu...?"
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "Or Mr. Yongi...?"
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "Or a dog thief...?"
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "I shouldn't be worried too much. You don't steal others' dog to sell, do you?"
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "where are you now? Are you still on the way to fine me?"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "location",
+        "latitude": 50.1058809,
+        "longitude": 14.4297471,
+        "range": 4
+      },
+      "messages": [
+        {
+          "delay": 2000,
+          "content": {
+            "en": "Here!"
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Dwarf Bar."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "I left something for you there."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "The lady at the bar will hand you the thing I left for you. You'll need to prove you are my helper though."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Do you still keep the flyer?"
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "The flyer about Jinsu. Give it to the lady but Shhhh....quitely and secretely."
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "You see the bar-code on the bottle? It will lead you to go further."
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "barcode-EAN-13",
+        "content": "8801047224549"
+      },
+      "messages": [
+        {
+          "delay": 3000,
+          "media": {
+            "audio": "http:\/\/www.estrangerlab.com\/library\/b.resources\/sunmoof.mp3",
+            "autoplay": true
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "You got the beer? Mr. Yongi?"
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "He is uncle Jinsu's friend. A very clever man."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Even a 11 year-old kid like me, can see him different to others. Without his help... we could've died."
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "You know, unknown death. The death no one cares about."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "I'm always thankful to him."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "And \n This place... wasn't a juice shop before."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "There was a pub where my parents and their Northern friends used to hang out."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "It's all gone though."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "It's all gone. Unimportant people's memories also sweped away."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "But look at it! How grandeur this new building is! \n How can you resist? It's so shiny and nice and clean..."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Our pub wasn't... but it gave us comfort though. I felt welcomed and accepted there."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "I don't know if I feel comfortable here or not. Things keep changing and I think I'm getting on the pace of it though..."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Sometimes I don't feel right."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "People quickly forget about what they were before."
+          }
+        },
+        {
+          "delay": 7000,
+          "content": {
+            "en": "I'm also forgetting what we were like in the North."
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "I can't picture my Northern friends anymore... Suna, Kyunghee, Minsu, Chan... their faces are a bit blurry.."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "I hope they are all doing well..."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Uncle Jinsu."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Uncle Jinsu recently took over Mr. Yongi's business in China."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Mr. Yongi's in trouble at the moment."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "The shitty government accused him a spy. No no...He's not!"
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "He loved everything of the South. Its freedom, wealth, fashion, and safety..."
+          }
+        },
+        {
+          "delay": 7000,
+          "content": {
+            "en": "He was a proper capitalism preacher and saved our lives!"
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Why, why they had to point him. I think he is innocent. He is just little bit smarter than others."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "I dont' like him to be used and trashed."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "I don't want to live in insecurity anymore. I don't like it. If we have to be scapegoats here as well.. "
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "What's the point of running all the way away from the North?"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "location",
+        "latitude": 50.1053771,
+        "longitude": 14.4301799,
+        "range": 3
+      },
+      "messages": [
+        {
+          "delay": 2000,
+          "content": {
+            "en": "These benches."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "My quiet time benches. I come here when I need to think."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "You can sit down there and have a break too."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "I guess you'd be hot and bothered as well."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Just for a momnet."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "You know what- I'm the only one who doesn't go to a prepschool in my class."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "Kids in the South Korea.... They have no time for playing!! REALLY-"
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "I went to a playground today. To see if I can make some friends."
+          }
+        },
+        {
+          "delay": 3500,
+          "content": {
+            "en": "But it was Eeeeeeeempty! No one was there! \n I've been to quite a few different playgrounds."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "No kids."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "So strange, isn't it?"
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "There are playgrouds for kids but no one plays in them."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Then I realised everyone goes to a prepschool. \n Yellow buses outside a school deliver the children straight to prepschools."
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "My parents can't afford it yet. Well, I don't need it!"
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "I'm only ten! Why should I study for hours after shcool? For what?"
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Then I found this place and started to come here when I get bored of playing alone in the playground."
+          }
+        },
+        {
+          "delay": 6000,
+          "content": {
+            "en": "I actually had a fight today. Those dumb Seoul snobs mocked my accent. \n Those little shits."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "I'm gonna tie their tungs together and beat them to FLAT if they keep making fun of me."
+          }
+        },
+        {
+          "delay": 5000,
+          "content": {
+            "en": "One day. I will."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "But how? Can you help? How can I win over those bullies?"
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Oh well.... Let's move on. You're nearly there."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "Just one more stop to go."
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "location",
+        "latitude": 50.1045481,
+        "longitude": 14.431353,
+        "range": 4.5
+      },
+      "messages": [
+        {
+          "delay": 2000,
+          "media": {
+            "audio": "http:\/\/www.estrangerlab.com\/library\/b.resources\/outrof.mp3",
+            "autoplay": true
+          }
+        },
+        {
+          "delay": 1000,
+          "content": {
+            "en": "Uh....."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "where am I...?"
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "Is there... anyone- \n anyone can help....?"
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "I don't know where I am."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "I'm lost."
+          }
+        },
+        {
+          "delay": 3500,
+          "content": {
+            "en": "I have to go find.."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "Find a way home"
+          }
+        },
+        {
+          "delay": 3500,
+          "content": {
+            "en": "My new home."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "Can you please help?"
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "My name is Bahn. I'm a nine year-old girl."
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Very nice to meet you."
+          }
+        },
+        {
+          "delay": 3000,
+          "content": {
+            "en": "Can you kindly be my guide to a way home?"
+          }
+        },
+        {
+          "delay": 4000,
+          "content": {
+            "en": "Can you help this little stranger?"
+          }
+        }
+      ]
+    }
+  ]
+}

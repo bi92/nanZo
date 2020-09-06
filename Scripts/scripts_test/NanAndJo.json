@@ -1,0 +1,77 @@
+{
+	"title": "test_001",
+	"description": "test-script",
+	"created_date": 191231,
+	"version_01": 1,
+
+	"trigger": {
+			"type": "location_test",
+			"latitude": 37.56945179,
+			"longitude": 126.99510917,
+			"range": 4
+	},
+
+	"dialogs": [
+
+	{
+		"trigger": {
+			"type": "location",
+			"latitude": 37.56945179,
+			"longitude": 126.99510917,
+			"range": 4
+		},
+
+		"messages": [
+
+			{
+				"delay": 2000,
+				"content": { "ko": "저… 거기 누구 없나요? "}},
+			{
+				"delay": 4000,
+				"content": { "ko": "저기, 저 좀 도와주세요, 제발."}},
+			{
+				"delay": 5000,
+				"content": { "ko": "길을 잃은 것 같아요. 나가는 길을 못 찾겠어요."}},
+			{
+				"delay": 6000,
+				"content": { "ko": "저를, 저를 찾아주세요. "}}
+		]
+
+	},
+
+	{
+		"trigger": {
+			"type": "location",
+			"latitude": 37.56931179,
+			"longitude": 126.99510917,
+			"range": 4
+		},
+
+		"messages": [
+
+			{
+				"delay": 2000,
+				"content": { "ko": "그러니까… 제가 어쩌다가 길을 잃었냐면- 아까 9층 옥상에서 놀다가 5층으로 내려 갔는데"}},
+			{
+				"delay": 6000,
+				"content": { "ko": "아, 저는… 17살이구요. 학생이구… 여자예요."}},
+			{
+				"delay": 6000,
+				"content": { "ko": "외모는, 그냥 평범한데. "}},
+			{
+				"delay": 4000,
+				"content": { "ko": "키는 163이 좀 넘을 걸요. 작년 봄에 쟀을 때 162.8였는데, 그 때보단 큰 거 같아요.ㅎ"}},
+			{
+				"delay": 7000,
+				"content": { "ko": "머리는 그냥 어깨에 닿는 검은 생머리. "}},
+			{
+				"delay": 5000,
+				"content": { "ko": "오늘은 치마 입고 나왔어요. 아 추워. "}},
+			{
+				"delay": 4000,
+				"content": { "ko": "사실은 데이트 하러. ㅎㅎㅎㅎㅎㅎ"}}
+		]
+
+	}]
+
+}
